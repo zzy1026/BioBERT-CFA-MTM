@@ -11,7 +11,7 @@ This is the implementation of Biomedical Named Entity Recognition with the Combi
 # Run
 
 `python run_ner_multi.py --data_dir=data/all/ --bert_model=./biobert-base-cased-v1.1 --task_n
-ame=ner --output_dir=./output/all_c --max_seq_length=128 --do_train --num_train_epochs=10 --do_eval --warmup_proportion=0.1 --
+ame=ner --output_dir=./output --max_seq_length=128 --do_train --num_train_epochs=10 --do_eval --warmup_proportion=0.1 --
 learning_rate=5e-5 --train_batch_size=64`
 
 
